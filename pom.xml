@@ -6,7 +6,7 @@
 
     <groupId>idk.plugin.infobook</groupId>
     <artifactId>InfoBook</artifactId>
-    <version>1.1</version>
+    <version>1.2</version>
     <build>
         <defaultGoal>install</defaultGoal>
         <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
@@ -15,8 +15,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>21</source>
+                    <target>21</target>
                 </configuration>
             </plugin>
         </plugins>
@@ -41,15 +41,15 @@
     </build>
     <repositories>
         <repository>
-            <id>nukkitx</id>
-            <url>https://repo.nukkitx.com/main</url>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
         </repository>
     </repositories>
     <dependencies>
         <dependency>
-            <groupId>cn.nukkit</groupId>
-            <artifactId>nukkit</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>com.github.PowerNukkitX</groupId>
+            <artifactId>PowerNukkitX</artifactId>
+            <version>master-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
